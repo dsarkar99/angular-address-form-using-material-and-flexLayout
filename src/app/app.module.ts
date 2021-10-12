@@ -8,6 +8,7 @@ import { AngularMaterialModule } from "./angular-material.module";
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { CustomAddressFormComponent } from "./custom-address-form/custom-address-form.component";
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 @NgModule({
   declarations: [AppComponent, HelloComponent, CustomAddressFormComponent],
@@ -15,7 +16,8 @@ import { CustomAddressFormComponent } from "./custom-address-form/custom-address
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    FlexLayoutModule
   ],
   bootstrap: [AppComponent]
 })
